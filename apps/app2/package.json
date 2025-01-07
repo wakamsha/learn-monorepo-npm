@@ -1,0 +1,19 @@
+{
+  "name": "@learn-monorepo-npm/app2",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "echo 'hello from app2'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wakamsha/learn-monorepo-npm.git",
+    "directory": "apps/app2"
+  },
+  "bugs": {
+    "url": "https://github.com/wakamsha/learn-monorepo-npm/issues"
+  },
+  "homepage": "https://github.com/wakamsha/learn-monorepo-npm/tree/main/apps/app2#readme",
+  "author": "wakamsha <wakamsha@gmail.com>",
+  "license": "MIT"
+}

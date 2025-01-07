@@ -1,0 +1,4 @@
+{
+  "extends": ["@learn-monorepo-npm/tsconfig/tsconfig.base"],
+  "include": ["./src/**/*"]
+}

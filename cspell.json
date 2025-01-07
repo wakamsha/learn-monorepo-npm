@@ -1,0 +1,10 @@
+{
+  "ignorePaths": ["**/node_modules/**"],
+  "import": [
+    "@cspell/dict-html/cspell-ext.json",
+    "@cspell/dict-html-symbol-entities/cspell-ext.json",
+    "@cspell/dict-node/cspell-ext.json",
+    "@cspell/dict-typescript/cspell-ext.json"
+  ],
+  "words": ["wakamsha"]
+}

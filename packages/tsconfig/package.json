@@ -1,0 +1,22 @@
+{
+  "name": "@learn-monorepo-npm/tsconfig",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wakamsha/learn-monorepo-npm.git",
+    "directory": "packages/tsconfig"
+  },
+  "bugs": {
+    "url": "https://github.com/wakamsha/learn-monorepo-npm/issues"
+  },
+  "homepage": "https://github.com/wakamsha/learn-monorepo-npm/tree/main/packages/tsconfig#readme",
+  "author": "wakamsha <wakamsha@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "5.7.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

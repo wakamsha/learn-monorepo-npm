@@ -1,0 +1,43 @@
+{
+  "name": "learn-monorepo-npm",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "22.12.0",
+    "npm": "9.6.7"
+  },
+  "packageManager": "npm@9.6.7",
+  "scripts": {
+    "app1": "    npm -w 'apps/app1'",
+    "app2": "    npm -w 'apps/app2'",
+    "catalog": " npm -w 'apps/catalog'",
+    "core": "    npm -w 'packages/core'",
+    "tsconfig": "npm -w 'packages/tsconfig'",
+    "lint": "prettier -c './**/*.{js,cjs,ts,tsx,md}'; eslint './**/*.{js,cjs,ts,tsx}'; stylelint './**/*.{css,scss}'; ",
+    "prepare": "husky"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "19.6.1",
+    "@commitlint/config-conventional": "19.6.0",
+    "@cspell/dict-html": "4.0.11",
+    "@cspell/dict-html-symbol-entities": "4.0.3",
+    "@cspell/dict-node": "5.0.6",
+    "@cspell/dict-typescript": "3.1.12",
+    "@wakamsha/eslint-config": "6.0.2",
+    "@wakamsha/stylelint-config": "2.0.2",
+    "cspell": "8.17.1",
+    "eslint": "9.17.0",
+    "eslint-config-prettier": "9.1.0",
+    "husky": "9.1.7",
+    "lint-staged": "15.3.0",
+    "prettier": "3.4.2",
+    "prettier-plugin-organize-imports": "4.1.0",
+    "stylelint": "16.12.0",
+    "stylelint-config-recommended-scss": "14.1.0",
+    "typescript": "5.7.2"
+  }
+}
